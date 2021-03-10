@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    background: rgb(38, 36, 50);
 }
 .container {
     width: 70%;
@@ -17,7 +18,7 @@ body {
 .nav {
     float: left;
     margin-top: 6px;
-    margin-left: 31%;
+    margin-left: 30%;
 }
 .link {
 	display:inline-block;
@@ -53,4 +54,123 @@ body {
 .watch {
     width: 100%;
 }
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    height: 30px;
+    color: white;
+    border-bottom: 8px solid rgb(49, 48, 49,0.3);
+}
+.heading span {
+    font-weight: normal;
+    color: lightgrey;
+}
+.points {
+    position: absolute;
+    top: 75%;
+    left:48%;
+}
+.gallery {
+    background: rgb(38, 36, 50);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.wheel {
+    margin: 25px 2% 25px 2%;
+    border-right: 1px solid grey;
+    width: 15%;
+}
+.news1 {
+    margin-top: 40px;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 16%;
+}
+.news1 span {
+    color: lightgrey;
+    font-weight: normal;
+}
+.news1 p {
+    color: lightgrey;
+}
+.text {
+    width: 65%;
+    float: left;
+    margin-top: -20px;
+}
+.search {
+    float: left;
+    background: rgb(40, 43, 53);
+    border: 5px solid #3b3c3d;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.button {
+    margin-top: 21px;
+    background: rgb(40, 43, 53);
+    border: none;
+}
+.news1::after {
+    content: '';
+    display: block;
+	clear: both;
+	height: 0;
+}
+.news2 {
+    margin-top: 40px;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 16%;
+}
+.news2 span {
+    color: lightgrey;
+    font-weight: normal;
+}
+.news2 p {
+    color: lightgrey;
+}
+.text {
+    width: 65%;
+    float: left;
+    margin-top: -20px;
+}
+.search2 {
+    float: left;
+    background: rgb(40, 43, 53);
+    border: 5px solid #3b3c3d;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.button2 {
+    margin-top: 25px;
+    background: rgb(40, 43, 53);
+    border: none;
+}
+.news2::after {
+    content: '';
+    display: block;
+	clear: both;
+	height: 0;
+}
+
 
